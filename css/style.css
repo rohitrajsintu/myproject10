@@ -1,0 +1,92 @@
+.navbar-default{
+    background-image: url("../images/banner.jpg");
+    border-radius: 0;
+    opacity: 0.9;
+    width: 100%;
+    background-attachment: fixed;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+/* banner part CSS */
+.container1{
+    width: 70%;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.container1 h1{
+    margin: 150px 0px  50px 0px;
+}
+.container1 .navbar-brand{
+    color: teal;
+    font-family: 'pacifico', sans-serif;
+    font-size: 22px;
+}
+.container1 .fa{
+    color: #6fe16f;
+    font-size: 30px;   
+}
+
+/* middle part css */
+.container2{
+    width: 70%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.container2 .two-section img{
+    border-radius: 50%;
+    margin: 40px 0px 40px 0px;
+
+}
+.container2 .two-section .btn{
+    background: 0;
+    color: black;
+    margin-top: 20px;
+    
+}
+.container3{
+    background-color: teal;
+    color: rgb(242, 242, 242);
+    padding-bottom: 20px;
+}
+.container3 .bottom-box{
+    width: 70%;
+    margin: 0 auto;
+}
+.container3 .bottom-box h4{
+   margin-top: 50px;
+}
+.container3 .bottom-box .social-links{
+    margin-top: 50px;
+}
+.container3 .bottom-box .social-links .fa{
+    color: #000000;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    height: 90px;
+    background-color: silver;
+}
+footer p{
+    padding-top: 40px;
+}
+/* media quiry starts here */
+@media ( max-width:786px) {
+    
+    .container1, .container2, .container3 .bottom-box{
+        width: 95%;
+
+
+    }
+    .container1 h1 {
+        font-size: 29px;
+    }
+}
+
+
